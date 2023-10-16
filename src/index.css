@@ -1,0 +1,15 @@
+/* font style */
+body {
+    margin: 0;
+    font-family:cursive,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .link{
+    text-decoration: underline;
+  }

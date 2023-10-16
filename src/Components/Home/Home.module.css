@@ -1,0 +1,93 @@
+
+.contactTable {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left:2% ;
+    margin-bottom: 2vh;
+    background-color: #15f1e6;
+}
+
+/* table */
+th,
+td {
+    padding: 8px;
+    margin: 0;
+    
+}  
+
+thead {
+    
+    background-color: #1386f8;
+    color: rgb(5, 4, 4);
+    height: 5vh;
+    text-align: center;
+    
+}
+
+.contactTable td {
+    border-bottom: 1px solid #f507079d; 
+    text-align: left;
+    
+}
+
+tbody {
+    height: 4vh;
+    border-bottom: 1px solid #2e2e2e9d; 
+    padding: 10px;
+    text-align: left;
+    
+}
+
+tr:hover{
+    background-color: #8397ea;
+}
+/* edit button */
+
+.editButton {
+    background-color: #fcb00c; 
+    color: #ffffff; 
+    padding: 8px 16px; 
+    border: solid black; 
+    border-radius: 4cm; /* Rounded corners */
+    margin-right: 10px;
+}
+
+.editButton:hover {
+    background-color: #f7cd89; 
+}
+
+/* delete button */
+.deleteButton {
+    background-color: #dc3545; 
+    
+    color: #fff; 
+    /* Text color */
+    padding: 8px 16px; 
+   
+    border: none;
+     /* Remove border */
+   border: solid black;
+     /* Rounded corners */
+   
+    margin-top: 1px; 
+    
+    border-radius: 4cm;
+}
+  
+.deleteButton:hover {
+    background-color: #c82333;
+     
+}
+  /*  add contact button */
+.addContact button{
+    padding: 10px;
+    background-color: rgb(92, 92, 247);
+    border-radius: 10cm;
+    margin-top: 10px;
+}
+
+.addContact button:hover{
+    background-color: #0681fc; 
+    color: rgb(21, 20, 20);
+}

@@ -1,0 +1,41 @@
+/* style to add contact */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(18, 244, 248);
+    border-radius: 40px;
+    margin-top: 20vh;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: hsla(250, 98%, 49%, 0.639);
+}
+
+.container form {
+    flex-direction: column;
+}
+
+.container input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: solid;
+    background-color: #a5b0e6f0;
+    border-radius: 4cm;
+}
+
+/* button */
+.container button {
+    padding: 10px;
+    background-color: #6525a9;
+    color: #121010;
+    border: solid;
+    cursor: pointer;
+    border-radius: 4cm;
+}
+
+.container button:hover {
+    background-color: #9c0cf0;
+}

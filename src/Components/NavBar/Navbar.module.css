@@ -1,0 +1,14 @@
+/* Styling for the nav-bar */
+nav{
+    background-color: rgb(40, 13, 242);
+    /* margin-top: -3vh; */
+    height: 7vh;
+    align-items: center;
+    padding-left: 92vh;
+    display: flex;
+    justify-content: left;
+}
+/* heading */
+h2{
+    color: rgb(0, 251, 201);
+}

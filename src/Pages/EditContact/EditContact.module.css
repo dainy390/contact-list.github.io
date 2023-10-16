@@ -1,0 +1,55 @@
+/* edit contact style */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(18, 244, 248);
+    border-radius: 40px;
+    margin-top: 20vh;
+}
+  
+  .container h1 {
+    margin-bottom: 20px;
+    color:#0846cc
+  }
+  
+  .container form {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: solid;
+    background-color: #a5b0e6f0;
+    border-radius: 4cm;
+}
+  
+  
+  
+  .updateButton {
+    background-color: #1a1ad9;
+    color: rgb(251, 247, 247);
+    border: solid black;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    border-radius: 4cm;
+    
+  }
+  
+  .cancle {
+    background-color: #0846cc;
+    color: white;
+    border: solid black;
+    padding: 10px 20px;
+    margin-left: 40px;
+    border-radius: 4cm;
+  }
+  
+  .cancle:hover,
+  .updateButton:hover {
+    opacity: 0.8;
+  }
+  
